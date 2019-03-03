@@ -1,0 +1,83 @@
+# Tests from //chrome/browser/chromeos.
+ArcActiveDirectoryEnrollmentTokenFetcherBrowserTest.*
+ArcAuthServiceTest.*
+ArcCertStoreBridgeTest.*
+ArcKioskAppManagerTest.*
+ArcRobotAuthCodeFetcherBrowserTest.*
+ArcSessionManagerTest.*
+ArcSettingsServiceTest.*
+ArcUserSessionServiceTest.*
+ArcVoiceInteractionArcHomeServiceTest.*
+AttestationDevicePolicyTest.*
+AutoLaunchedKioskTest.*
+BrowserLoginTest.*
+CrashRestoreComplexTest.*
+CrashRestoreSimpleTest.*
+DriveIntegrationServiceBrowserTest.*
+# crbug.com/796999
+#EnterpriseEnrollmentTest.*
+KioskAppManagerTest.*
+KioskAppUpdateServiceTest.*
+LoginPromptBrowserTest.*
+LoginUtilsTest.*
+MultiProfileFileManagerBrowserTest.*
+NetworkScreenTest.*
+PowerPolicyInSessionBrowserTest.*
+PowerPolicyLoginScreenBrowserTest.*
+QuirksBrowserTest.*
+# crbug.com/796999
+#ResetTest.*
+SAMLEnrollmentTest.*
+ShutdownPolicyLockerTest.*
+UpdateScreenTest.*
+# crbug.com/796999
+#UserImageManagerTest.*
+UserSelectionScreenTest.*
+# crbug.com/796999
+#WebviewLoginTest.*
+
+# Tests from //chrome/browser/ui/ash.
+AcceleratorCommandsFullscreenBrowserTest.*
+AcceleratorCommandsPlatformAppFullscreenBrowserTest.*
+ArcAppLauncherBrowserTest.*
+ShelfBrowserTest.*
+ShelfGuestSessionBrowserTest.*
+SoundsManagerTestImpl.*
+SystemTrayClientClockTest.*
+SystemTrayClientEnterpriseTest.*
+SystemTrayClientTest.*
+VolumeControllerTest.*
+
+# Tests from elsewhere.
+BrowserUiTest.*
+CastSessionBrowserTest.*
+ChromeContentBrowserClientMashTest.*
+ChromeContentRendererClientSearchBoxTest.*
+ChromeRenderFrameObserverTest.*
+ChromeRenderViewTest.*
+DeviceStatusCollectorNetworkInterfacesTest.*
+DeviceStatusCollectorTest.*
+DownloadInterruptReasonEnumsSynced.*
+ExperimentalAppWindowApiTest.*
+ExtensionDetermineDownloadFilenameInternal.*
+ExtensionsLoadTestWithLoginScreenApps.*
+FormAutocompleteTest.*
+FormClassifierTest.*
+InstantProcessNavigationTest.*
+PageClickTrackerTest.*
+PasswordGenerationAgentTest.*
+PhishingClassifierDelegateTest.*
+PhishingDOMFeatureExtractorTest.*
+PnaclHeaderTest.*
+PolicyCertVerifierTest.*
+ScriptContextTest.*
+SiteEngagementUiBrowserTest.*
+
+# Sending invalid FrameSinkIds crbug.com/796999
+-BrowserLoginTest.*BrowserActive
+-LoginUtilsTest.MashLogin
+-PowerPolicyLoginScreenBrowserTest.SetDevicePolicy
+-SystemTrayClientClockTest.*TestMultiProfile24HourClock
+-UserSelectionScreenTest.*ShowDircryptoMigrationBanner
+
+
